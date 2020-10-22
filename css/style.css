@@ -3,13 +3,15 @@
 }
 body {
   font-family: sans-serif;
+  background: #e5e5e5;
 }
 
 .header {
   background: hsl(31, 96%, 53%);
   padding-top: 16px;
   padding-bottom: 16px;
-  box-shadow:  2px 8px rgba(0, 0, 0, 0.15);
+  box-shadow: 2px 8px rgba(0, 0, 0, 0.15);
+  margin-bottom: 30px;
 }
 .header-wrapper {
   /* border: 1px solid #000000; */
@@ -91,4 +93,54 @@ body {
 }
 .search-input::placeholder {
   color: #bfbfbf;
+}
+
+.content {
+  max-width: 1200px;
+  width: 90%;
+}
+.posts {
+  width: 800px;
+}
+.post {
+  background: #fff;
+  border: 1px solid #e8e8e8;
+  padding: 35px 35px 0 35px;
+}
+.post-title {
+  margin-top: 0;
+  margin-bottom: 19px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.post-text {
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+
+  /* or 157% */
+
+  /* Grey / grey-9 */
+  color: #262626;
+}
+.tegs {
+  margin-bottom: 22px;
+}
+.teg {
+  color: #bfbfbf;
+  font-size: 14px;
+  line-height: 22px;
+  margin-right: 10px;
+}
+.post-footer {
+  border: 1px solid #e8e8e8;
+  background: #fafafa;
+}
+.post-footer .icon {
+
+  fill: #8c8c8c;
 }
